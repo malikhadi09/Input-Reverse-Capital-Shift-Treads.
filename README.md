@@ -8,7 +8,7 @@ Then there is CapitalizedThread class which is also dependent on the InputThread
 And in the last we have ShiftThread class which is also dependent on InputThread, in this class we have functionality that is used to shift the letters in the string
 Before beginning its own work, each thread invokes the InputThread's join() method, which forces the thread to wait until the InputThread has finished. By doing this, it is ensured that the other threads won't begin operating until the InputThread has completed.
 
-#OUTPUT OF THE CODE:
+# OUTPUT OF THE CODE:
 
 ![image](https://user-images.githubusercontent.com/92660593/210552068-2005ac0f-91e3-4ed9-808f-1429983c216b.png)
 ![image](https://user-images.githubusercontent.com/92660593/210552084-f3f4bfba-0b2b-4dfc-8335-493258e1e217.png)
